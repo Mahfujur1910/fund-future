@@ -15,6 +15,7 @@ const DonatedPart = ({ donation }) => {
                 <p>৳ {amount}</p>
             </div>
         </div>
+        
     );
 };
 

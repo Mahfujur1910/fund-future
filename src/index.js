@@ -12,6 +12,7 @@ import ApiProvider from './Context/ApiProvider';
 
 
 
+
 const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

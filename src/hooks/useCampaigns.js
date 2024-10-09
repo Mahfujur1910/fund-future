@@ -6,6 +6,7 @@ const useCampaigns = (email) => {
 
 
 
+    
     useEffect(() => {
         if(email){
             fetch(`https://fund-future-server.vercel.app/all-campaigns`)

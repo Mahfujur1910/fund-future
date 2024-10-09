@@ -9,6 +9,7 @@ import layers from '../../assets/gifIcon/layers.gif'
 
 const DashboardLayout = () => {
     const { user } = useContext(AuthContext);
+    
     const [isAdmin, isAdminLoading] = useAdmin(user?.email);
     if (isAdminLoading) {
         return <Loading></Loading>

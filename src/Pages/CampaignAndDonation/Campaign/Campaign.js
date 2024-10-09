@@ -6,6 +6,7 @@ import mobile from '../../../assets/gifIcon/mobile-app.gif'
 import email from '../../../assets/gifIcon/email.gif'
 import DisplayMessages from './DisplayMessages';
 
+
 const Campaign = ({ campaign,messages }) => {
     const { title, image, description, campaigner_name, campaigner_mail, campaigner_phone } = campaign;
     const sanitizer = DOMPurify.sanitize;

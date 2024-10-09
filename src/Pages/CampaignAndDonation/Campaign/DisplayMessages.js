@@ -17,6 +17,7 @@ const DisplayMessages = ({msg}) => {
             </div>
             {/* <div className="divider"></div> */}
         </div>
+        
     );
 };
 
